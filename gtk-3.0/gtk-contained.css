@@ -5311,6 +5311,17 @@ NemoWindow .sidebar row:hover {
 	background-color: shade(@theme_base_color, 0.9);
 }
 
+/* Evolution Calendar */
+EShellWindow ECalShell*.entry,
+EShellWindow ECalShellSidebar .entry {
+	border-radius: 2px;
+}	
+
+ECalendar {
+	background-color: #363636;
+	background-image: none;
+	color: #d2d2d2;
+
 /*
 these are pretty self explicative */
 @define-color warning_color #f57900;
