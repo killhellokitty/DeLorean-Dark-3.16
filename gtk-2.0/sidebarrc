@@ -22,10 +22,10 @@ class		 "*ThunarTreeView"			style		"sidebar"
 widget_class	"*FmPlacesView*"		style 		"sidebar"
 widget_class	"*FmDirTreeView"			style 		"sidebar"
 widget_class "*<ThunarShortcutsPane>*<ThunarShortcutsView>"  style  "sidebar"
-widget_class "*CajaSidePane.*"                 style "caja-sidebar"
-widget_class "*Caja*Places*Sidebar*"           style "caja-sidebar"
-widget_class "*Caja*Side*.GtkWidget"           style "caja-sidebar"
-widget_class "*Caja*Side*Title*"               style "caja-sidebar"
+widget_class "*CajaSidePane.*"                 style "sidebar"
+widget_class "*Caja*Places*Sidebar*"           style "sidebar"
+widget_class "*Caja*Side*.GtkWidget"           style "sidebar"
+widget_class "*Caja*Side*Title*"               style "sidebar"
 
 
 style "caja-icon-view"
@@ -36,7 +36,7 @@ style "caja-icon-view"
 
 widget_class "*FMIconView"				style "caja-icon-view"
 widget_class "*FMListView"				style "caja-icon-view"
-widget_class "*Caja*View*"                     style "caja-view"
+widget_class "*Caja*View*"                     style "caja-icon-view"
 
 style "thunar-fm-iconview" 
 {
@@ -106,7 +106,7 @@ style "caja-statusbar"
 		recolorable		= TRUE
 		state			= NORMAL
 		detail			= "statusbar"
-		overlay_file	= "Handles/resize-grip.png"
+		overlay_file	= "Handles/resize_grip.png"
 		overlay_border	= {0,0,0,0 }
 		overlay_stretch	= FALSE
 	    }

@@ -756,21 +756,16 @@ style "menu"
 	ythickness	= 0
 
 	GtkMenuItem::arrow-scaling	= 0.4
-	bg_pixmap[NORMAL] = "Others/delorean-new.png"
-	
+	    bg[NORMAL]      = "#00131F"
         bg[INSENSITIVE] = @base_color
         bg[PRELIGHT]    = @base_color
-
-	engine "pixmap"	# For menus that use horizontal lines rather than gtkseparator
-	{
-	image
-	{
-	  function			= HLINE
-	  file				= "Lines/separator-menu.svg"
-	  border			= { 0,0,1,0 }
-	  stretch			= TRUE
+        fg[NORMAL]      = "#eaeaea"
+        fg[SELECTED]    = "#ffffff"
+engine "murrine"
+ 	{
+		text_shade = 0.4
+		textstyle = 1
 	}
-    }
 }
 
 style "menu_separator"
