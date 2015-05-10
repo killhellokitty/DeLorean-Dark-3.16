@@ -2360,19 +2360,21 @@ column-header .titlebar .button.titlebutton,
 .menu {
   margin: 4px;
   padding: 0px;
-  background-color: transparent;
-  background-image: url("assets/delorean-dark-new.png");
-  background-repeat: no-repeat;
-  border: 1px solid @borders;
- box-shadow: inset 0 0px 2px 3px alpha(white, 0.07); }
+  background-color: rgba(0,19,31,0.9);
+  border: 1px solid #00070b;
+ box-shadow:  0 0px 2px 3px alpha(black, 0.20); }
   .csd .menu {
     border: none; }
   .menu .menuitem {
     text-shadow: none;
     padding: 4px; }
     .menu .menuitem:hover {
-      color: #ffffff;
-      background-color: @theme_selected_bg_color; }
+      color: #fff;
+      border-width: 1px 0  0 0;
+      border-style:solid;
+      border-top-color: rgb(0,94,150);
+      background-color: transparent;
+      background-image: linear-gradient(to bottom, rgb(0,72,115), rgb(0,81,129)); }
     .menu .menuitem:insensitive {
       color: shade(@insensitive_fg_color,3.1); }
       .menu .menuitem:insensitive:backdrop {
@@ -2409,13 +2411,20 @@ column-header .titlebar .button.titlebutton,
   padding: 2px;
   border: 1px solid #1c1f1f;
   border-radius: 5px;
-  background-color: transparent;
-  background-image: url("assets/delorean-dark-new.png");
-  background-repeat: no-repeat;
-  border: 1px solid @borders;
-  box-shadow: inset 0 0px 2px 3px alpha(white, 0.07); }
+  background-color: rgba(0,19,31,0.9);
+  background-image: none;
+  border: 1px solid #00070b;
+ box-shadow:  0 0px 2px 3px alpha(black, 0.20);
+ color: #eaeaea; }
   .popover:backdrop {
     box-shadow: none; }
+.popover .button.menuitem.flat{
+background-image: none;
+background-color: transparent;
+color: #eaeaea;}
+.popover .button.menuitem.flat:hover{
+background-color: @theme_selected_bg_color;
+color: white;}
   .popover > .list,
   .popover > .view,
   .popover > .toolbar,
