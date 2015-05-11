@@ -1,0 +1,69 @@
+#openbox themerc edited with obtheme
+menu.items.active.bg: Gradient Vertical Flat
+menu.items.active.bg.color: #004873
+menu.items.active.bg.colorTo: #005181
+menu.items.active.text.color: #FFFFFF
+menu.items.bg: Solid Flat
+menu.items.bg.color: #00070B
+menu.items.disabled.text.color: #7A7A7A
+menu.items.text.color: #EAEAEA
+menu.overlap: 0
+menu.overlap.x: 2
+menu.separator.color: #002438
+menu.title.bg: Solid Flat
+menu.title.bg.color: #00131F
+menu.title.text.color: #FFFFFF
+osd.hilight.bg: Solid Flat
+osd.hilight.bg.color: #004873
+osd.label.bg: Solid Flat
+osd.label.bg.color: #001E33
+osd.label.text.color: #EAEAEA
+osd.unhilight.bg: Solid Flat
+osd.unhilight.bg.color: #00131F
+window.active.border.color: #00070B
+window.active.button.disabled.bg: ParentRelative Flat
+window.active.button.disabled.image.color: #7A7A7A
+window.active.button.hover.bg: Solid Flat
+window.active.button.hover.bg.color: #001E33
+window.active.button.pressed.bg: Solid Flat
+window.active.button.pressed.bg.color: #00131F
+window.active.button.toggled.bg: Solid Flat
+window.active.button.toggled.bg.color: #002C46
+window.active.button.toggled.hover.bg: Solid Flat
+window.active.button.toggled.hover.bg.color: #00385A
+window.active.button.toggled.pressed.bg: Solid Flat
+window.active.button.toggled.pressed.bg.color: #002033
+window.active.button.toggled.unpressed.image.color: #EAEAEA
+window.active.button.unpressed.bg: Solid Flat
+window.active.button.unpressed.bg.color: #00131F
+window.active.button.unpressed.image.color: #FFFFFF
+window.active.client.color: #00070B
+window.active.grip.bg: Gradient Vertical Flat
+window.active.grip.bg.color: #00131F
+window.active.grip.bg.colorTo: #002033
+window.active.handle.bg: Gradient Vertical Flat
+window.active.handle.bg.color: #002033
+window.active.handle.bg.colorTo: #002C46
+window.active.label.bg: Solid Flat
+window.active.label.bg.color: #00131F
+window.active.label.text.color: #EAEAEA
+window.active.title.bg: Solid Flat
+window.active.title.bg.color: #00131F
+window.inactive.button.disabled.bg: ParentRelative Flat
+window.inactive.button.disabled.image.color: #7A7A7A
+window.inactive.button.pressed.bg: Solid Flat
+window.inactive.button.pressed.bg.color: #00131F
+window.inactive.button.pressed.image.color: #FFFFFF
+window.inactive.button.toggled.bg: ParentRelative Flat
+window.inactive.button.toggled.hover.image.color: #EAEAEA
+window.inactive.button.toggled.image.color: #EAEAEA
+window.inactive.button.toggled.unpressed.image.color: #7A7A7A
+window.inactive.button.unpressed.image.color: #7A7A7A
+window.inactive.client.color: #00131F
+window.inactive.grip.bg: Gradient Vertical Flat
+window.inactive.grip.bg.color: #00131F
+window.inactive.grip.bg.colorTo: #002C46
+window.inactive.label.text.color: #7A7A7A
+window.inactive.title.bg: Solid Flat
+window.inactive.title.bg.color: #00131F
+window.inactive.title.separator.color: #00263D
