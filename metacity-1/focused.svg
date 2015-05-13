@@ -21,7 +21,7 @@
     <linearGradient
        id="linearGradient3789">
       <stop
-         style="stop-color:#ffffff;stop-opacity:0.04;"
+         style="stop-color:#ffffff;stop-opacity:0.18000001"
          offset="0"
          id="stop3791" />
       <stop
@@ -226,7 +226,7 @@
        xlink:href="#linearGradient3789"
        id="linearGradient3795"
        x1="14.714286"
-       y1="18"
+       y1="21.691551"
        x2="14.714286"
        y2="48.016663"
        gradientUnits="userSpaceOnUse" />
@@ -239,14 +239,14 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="12.19"
-     inkscape:cx="-6.4538816"
-     inkscape:cy="18"
+     inkscape:cx="-21.097032"
+     inkscape:cy="17.835931"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:window-width="1920"
-     inkscape:window-height="1005"
+     inkscape:window-height="998"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -260,7 +260,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -292,5 +292,19 @@
        height="1"
        x="0"
        y="47" />
+    <rect
+       style="opacity:0.3;fill:#b4b4b4;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4173-3"
+       width="30"
+       height="1"
+       x="0"
+       y="19" />
+    <rect
+       style="opacity:0.45;fill:#242424;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4173-4"
+       width="30"
+       height="1"
+       x="0"
+       y="18" />
   </g>
 </svg>
