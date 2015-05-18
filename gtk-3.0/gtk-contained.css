@@ -5331,6 +5331,12 @@ ECalendar {
 	background-image: none;
 	color: #d2d2d2;
 }
+
+.dim-label,
+.dim-label:backdrop {
+  color: alpha(@theme_fg_color,0.4);
+  }
+
 /*
 these are pretty self explicative */
 @define-color warning_color #f57900;
