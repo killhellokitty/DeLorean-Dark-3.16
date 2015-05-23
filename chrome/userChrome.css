@@ -1104,3 +1104,161 @@ windowdragbox {
   background-size: 30px 100%, calc(100% - (2 * 30px)) 100%, 30px 100% !important;
 }
 
+/* Menus */
+
+popup,
+menupopup{
+  padding: 3px!important;
+} 
+panel{
+  padding: 0px!important;
+}
+panel[type="arrow"]{
+  -moz-appearance: none!important;
+  background: transparent!important;
+  border: none!important;
+  transition: opacity 300ms!important;
+}
+
+panel[type="arrow"][side="top"],
+panel[type="arrow"][side="bottom"] {
+  margin-left: -20px!important;
+  margin-right: -20px!important;
+}
+
+panel[type="arrow"][side="left"],
+panel[type="arrow"][side="right"] {
+  margin-top: -20px!important;
+  margin-bottom: -20px!important;
+}
+
+.panel-arrowcontent{
+/* edited by FT DeepDark's author */
+  border-radius: 3px!important;
+  padding: 10px!important;
+  color: #dbdbdb !important;
+  background: #005181!important;
+  background-clip: padding-box!important;
+  border: 1px solid rgb(0,0,0)!important;
+  margin: 3px 4px 4px 4px!important;
+}
+
+.panel-arrow[side="top"],
+.panel-arrow[side="bottom"] {
+  list-style-image: url("images/panelarrow-vertical.png")!important;
+  position: relative!important;
+  margin-left: 10px!important;
+  margin-right: 10px!important;
+}
+
+.panel-arrow[side="top"] {
+  margin-bottom: -5px!important;
+}
+
+.panel-arrow[side="bottom"] {
+  transform: scaleY(-1)!important;
+  margin-top: -5px!important;
+}
+
+.panel-arrow[side="left"],
+.panel-arrow[side="right"] {
+  list-style-image: url("images/panelarrow-horizontal.png")!important;
+  position: relative!important;
+  margin-top: 10px!important;
+  margin-bottom: 10px!important;
+}
+
+.panel-arrow[side="left"] {
+  margin-right: -5px!important;
+}
+
+.panel-arrow[side="right"] {
+  transform: scaleX(-1)!important;
+  margin-left: -5px!important;
+}
+
+
+/* ::::: menu/menuitems in menubar ::::: */
+
+menu,
+menuitem,
+.splitmenu-menuitem {
+  -moz-appearance: none !important;
+  -moz-box-align: center;
+  color: rgb(166,166,166);
+  height: 20px;
+  font: menu;
+  list-style-image: none;
+  -moz-image-region: auto;
+  border: 1px solid transparent;
+}
+
+menu {
+  background: none !important;
+} 
+
+menuitem {
+  background: none;
+} 
+
+menu:hover,
+menu:focus,
+menu[open="true"],
+menuitem:hover{
+  color: rgb(255,255,255) !important;
+  background: rgba(255,255,255,.09) !important;
+  border: 1px solid transparent !important;
+  box-shadow: none !important;
+  transition: color .1s ease-in;
+} 
+
+menuitem[default="true"] {
+  font-weight: bold;
+}
+
+menu[disabled="true"],
+menuitem[disabled="true"],
+.splitmenu-menuitem[disabled="true"],
+menu[_moz-menuactive="true"][disabled="true"],
+menuitem[_moz-menuactive="true"][disabled="true"],
+.splitmenu-menuitem[_moz-menuactive="true"][disabled="true"] {
+  color: rgba(200,200,200,.3);
+  text-shadow: none;
+}
+
+menu[disabled="true"]:hover,
+menuitem[disabled="true"]:hover,
+.splitmenu-menuitem[disabled="true"]:hover,
+menu[_moz-menuactive="true"][disabled="true"]:hover,
+menuitem[_moz-menuactive="true"][disabled="true"]:hover,
+.splitmenu-menuitem[_moz-menuactive="true"][disabled="true"]:hover {
+  color: rgba(200,200,200,.4) !important;
+  text-shadow: none;
+}   
+
+#back-button > menupopup {
+-moz-appearance: none !important;
+  margin-top: -1px !important;
+  background: #005181 !important;
+}
+
+#forward-button > menupopup {
+-moz-appearance: none !important;
+  margin-top: 1px !important;
+  background: #005181 !important;
+}
+
+  .menu-accel,
+  .menu-iconic-accel {
+    color: #5a5a5a;
+  }
+
+popup,
+menupopup,
+panel{
+/* edited by FT DeepDark's author */
+  -moz-appearance: none !important;
+  border: 1px solid #3a3a3a !important;
+  min-width: 1px;
+  background-color: #7a7a7a !important;
+}
