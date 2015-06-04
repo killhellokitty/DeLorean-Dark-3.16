@@ -1105,7 +1105,7 @@ style "entry"
 	xthickness	= 3
 	ythickness   	= 4
 
-        base[NORMAL] = "#dbdbdb" #Non Gtk apps like Spotify and Opera use this as the entry text-input color. So its better to color the entry background colors#
+        base[NORMAL] = "#2c2c2c" #Non Gtk apps like Spotify and Opera use this as the entry text-input color. So its better to color the entry background colors#
         base[INSENSITIVE]       = @insensitive_bg_color
         text[SELECTED]  	= "#ffffff"
         text[NORMAL] 		= "#eaeaea"
@@ -2487,6 +2487,12 @@ style "chrome_menu_item"
         bg[SELECTED] = @selected_bg_color
 }
 
+style "chrome_menu"
+{
+	bg[NORMAL]	= "#7a7a7a"
+	base[NORMAL] = "#7a7a7a"
+	}
+
 style "null"
 {
 	engine "pixmap"
@@ -2659,7 +2665,7 @@ widget_class "*<GimpToolbox>*<GtkFrame>" style "gimp_toolbox_frame"
 class "ChromeGtkFrame" 			             style "chrome-gtk-frame"
 widget_class "*Chrom*Button*"		             style "button"
 widget_class "*<GtkCustomMenu>*<GtkCustomMenuItem>*" style "chrome_menu_item"
-
+widget_class "*<GtkCustomMenu>*" style "chrome_menu"
 # We use this weird selector to target an offscreen entry as created
 # by Chrome/Chromium to derive the style for its toolbar
 widget_class "<GtkEntry>"                            style "standalone_entry"
